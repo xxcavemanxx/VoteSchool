@@ -1,0 +1,18 @@
+<div class="main">
+	<span class="menu">
+		<div>
+			<a ng-repeat="button in menu" href="{{ button.link }}">
+				<div class="btn">{{ button.text }}</div>
+			</a>
+		</div>
+	</span>
+</div>
+
+<div class="footer">
+	<span class="container">
+		<div ng-repeat="item in footer">
+			<a href="{{ item.link }}">{{ item.text }}</a>
+		</div>
+		&copy 2015 VoteSchool.org
+	</span>
+</div>
