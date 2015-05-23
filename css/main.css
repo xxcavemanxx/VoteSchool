@@ -2,36 +2,27 @@ body {
 	text-align: center;
 	width: 1000px;
 	margin-left: 20%;
+	border: 1px solid black;
 }
 
-hr {
-	width: 1000px;
+header {
+	background: -webkit-linear-gradient(#00a1ff, #006aff); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#00a1ff, #006aff); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#00a1ff, #006aff); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#00a1ff, #006aff); /* Standard syntax */
+	font-family: "Comic Sans MS", cursive, sans-serif;
+    border-bottom: 1px solid black;
+    padding: 5px;
 }
 
-.header {
-	width: 1000px;
-	margin-left: 20%;
+nav {
+    width: 150px;
+    float: left;
 }
 
-.main {
-	background-color: gray;
-	/*width: 1000px;
-	margin-left: 20%;*/
-}
+nav a {
+	display: block;
 
-.menu div {
-	width: 150px;
-}
-
-.menu a:link {
-	color: black;
-	text-decoration: none;
-}
-.menu a:visited {
-	color: white;
-}
-
-.btn {
 	background: -webkit-linear-gradient(#00a1ff, #006aff); /* For Safari 5.1 to 6.0 */
 	background: -o-linear-gradient(#00a1ff, #006aff); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(#00a1ff, #006aff); /* For Firefox 3.6 to 15 */
@@ -39,8 +30,6 @@ hr {
 
 	padding-top: 20px;
 	padding-bottom: 20px;
-	padding-left: 30px;
-	padding-right: 30px;
 	
 	border: 1px solid black;
 	border-radius: 8px;
@@ -48,12 +37,32 @@ hr {
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-size: 14px;
 
-	width: 150px;
+	list-style-type: none;
 }
 
-.btn:hover {
+nav a:link, nav a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+nav a:hover {
 	background: -webkit-linear-gradient(#006aff, #00a1ff); /* For Safari 5.1 to 6.0 */
 	background: -o-linear-gradient(#006aff, #00a1ff); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(#006aff, #00a1ff); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(#006aff, #00a1ff); /* Standard syntax */
+}
+
+section {
+	background-color: gray;
+	width: 828px; /* body - nav - borders */
+    float: right;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    border-top: 1px solid black;
+    padding: 5px;
 }
