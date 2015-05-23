@@ -1,39 +1,39 @@
-app.controller('HomeController', ['$scope', function($scope) {
+app.controller('MainController', ['$scope', function($scope) {
 	$scope.menu = [
 		{
 			text: 'Btn1',
-			link: '/'
+			link: '#/'
 		},
 		{
 			text: 'Button 2',
-			link: '/'
+			link: '#/'
 		},
 		{
 			text: 'Btn3',
-			link: '/'
+			link: '#/'
 		},
 		{
 			text: 'Button 4',
-			link: '/'
+			link: '#/'
 		},
 		{
 			text: 'Btn5',
-			link: '/'
+			link: '#/'
 		}
 	];
 
 	$scope.footer = [
 		{
 			text: 'Home',
-			link: '/'
+			link: '#/'
 		},
 		{
 			text: 'About',
-			link: '/'
+			link: '#/about/'
 		},
 		{
 			text: 'Sitemap',
-			link: '/'
+			link: '#/'
 		}
 	];
 }]);
