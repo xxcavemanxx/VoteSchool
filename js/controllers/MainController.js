@@ -6,7 +6,7 @@ app.controller('MainController', ['$scope', function($scope) {
 		},
 		{
 			text: 'Button 2',
-			link: '#/'
+			link: '#/about/'
 		},
 		{
 			text: 'Btn3',
@@ -14,7 +14,7 @@ app.controller('MainController', ['$scope', function($scope) {
 		},
 		{
 			text: 'Button 4',
-			link: '#/'
+			link: '#/about/'
 		},
 		{
 			text: 'Btn5',
@@ -36,4 +36,14 @@ app.controller('MainController', ['$scope', function($scope) {
 			link: '#/'
 		}
 	];
+
+	$scope.hiddenMenu = true;
+
+	$scope.hideMenu = function() {
+		$scope.hiddenMenu = true;
+	}
+
+	$scope.showMenu = function() {
+		$scope.hiddenMenu = false;
+	}
 }]);

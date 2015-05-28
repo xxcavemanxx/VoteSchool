@@ -43,7 +43,7 @@
 			"file": "css/main.css",
 			"settings":
 			{
-				"buffer_size": 1212,
+				"buffer_size": 1861,
 				"line_ending": "Windows"
 			}
 		},
@@ -51,7 +51,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 753,
+				"buffer_size": 983,
 				"line_ending": "Windows"
 			}
 		},
@@ -59,7 +59,7 @@
 			"file": "views/home.html",
 			"settings":
 			{
-				"buffer_size": 369,
+				"buffer_size": 153,
 				"line_ending": "Windows"
 			}
 		},
@@ -67,15 +67,15 @@
 			"file": "js/app.js",
 			"settings":
 			{
-				"buffer_size": 239,
+				"buffer_size": 334,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "js/controllers/HomeController.js",
+			"file": "js/controllers/MainController.js",
 			"settings":
 			{
-				"buffer_size": 434,
+				"buffer_size": 448,
 				"line_ending": "Windows"
 			}
 		},
@@ -117,6 +117,7 @@
 	},
 	"file_history":
 	[
+		"/E/Projects/VoteSchool/views/about.html",
 		"/C/Program Files/Sublime Text 3/Data/Packages/Default/Preferences.sublime-settings",
 		"/C/Program Files/Sublime Text 3/Data/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Tyler/School/Spring 2015/CS4490 - Compiler Construction/KXI Compiler/KXI Compiler/Debug/dll.kxi",
@@ -146,6 +147,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"0",
 			"auto",
 			"009bdf"
 		],
@@ -165,7 +167,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -174,15 +176,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1212,
+						"buffer_size": 1861,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								209,
-								209
+								18,
+								18
 							]
 						],
 						"settings":
@@ -202,15 +204,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 753,
+						"buffer_size": 983,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								516,
-								516
+								442,
+								442
 							]
 						],
 						"settings":
@@ -230,15 +232,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 369,
+						"buffer_size": 153,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								316,
-								316
+								22,
+								22
 							]
 						],
 						"settings":
@@ -258,20 +260,21 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 239,
+						"buffer_size": 334,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								190,
-								190
+								144,
+								144
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -281,19 +284,19 @@
 				},
 				{
 					"buffer": 4,
-					"file": "js/controllers/HomeController.js",
+					"file": "js/controllers/MainController.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 434,
+						"buffer_size": 448,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								425,
-								425
+								20,
+								20
 							]
 						],
 						"settings":

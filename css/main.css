@@ -16,48 +16,45 @@ header {
     padding: 5px;
 }
 
-nav {
+.menu {
     width: 150px;
-    float: left;
-    background-color: gray;
+    position: fixed;
+    top: 40px;
+    left: 25%;
 }
 
-nav a {
+.menu a {
 	display: block;
 
-	background: -webkit-linear-gradient(#00a1ff, #006aff); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#00a1ff, #006aff); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#00a1ff, #006aff); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(#00a1ff, #006aff); /* Standard syntax */
+	background: -webkit-linear-gradient(#E60000, #B20000); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#E60000, #B20000); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#E60000, #B20000); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#E60000, #B20000); /* Standard syntax */
 
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	
 	border: 1px solid black;
 	border-radius: 8px;
 
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-size: 14px;
-
-	list-style-type: none;
 }
 
-nav a:link, nav a:visited {
+.menu a:link, .menu a:visited {
 	color: black;
 	text-decoration: none;
 }
 
-nav a:hover {
-	background: -webkit-linear-gradient(#006aff, #00a1ff); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#006aff, #00a1ff); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#006aff, #00a1ff); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(#006aff, #00a1ff); /* Standard syntax */
+.menu a:hover {
+	background: -webkit-linear-gradient(#E60000, #B20000); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#E60000, #B20000); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#E60000, #B20000); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#E60000, #B20000); /* Standard syntax */
 }
 
 section {
 	background: white;
-	float: left;
-	width: 830px; /* body - nav - borders */
 	min-height: 295px;
     padding: 10px;
     /*border: 1px solid black;*/
